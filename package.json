@@ -9,14 +9,7 @@
   "license": "MIT",
   "main": "./src/index.js",
   "exports": "./src/index.js",
-  "scripts": {
-    "test": "npx @kmamal/testing",
-    "update-exports": "node ./scripts/update-exports.mjs"
-  },
   "dependencies": {
-    "@kmamal/util": "^0.1.15"
-  },
-  "devDependencies": {
-    "@kmamal/testing": "^0.0.28"
+    "@kmamal/exists": "^0.0.1"
   }
 }
